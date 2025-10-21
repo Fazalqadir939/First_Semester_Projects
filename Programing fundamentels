@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class pf7 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the balance: ");
+        int bal = sc.nextInt();
+        System.out.println("Enter the balance of the account: ");
+        if(bal>=10000){
+            System.out.println("Good");
+        }
+        else {
+            System.out.println("The balance is low so enter the balance other wise oyo");
+        }
+    }
+}
