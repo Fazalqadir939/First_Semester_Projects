@@ -13,7 +13,7 @@ def binary_to_decimal(binary_str):
 def octal_to_decimal(octal_str):
     """Convert octal to decimal"""
     decimal = 0
-    power = 0
+    power =0
     for digit in reversed(octal_str):
         if digit not in '01234567':
             raise ValueError("Invalid octal number")
